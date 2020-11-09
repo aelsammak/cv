@@ -148,11 +148,12 @@ hr {
 }
 
 .mountain {
-  width: 1200px;
+  width: 100%;
   height: auto;
+  max-width: 1200px;
   position: absolute;
-  bottom: 1px;
-  right: 350px;
+  bottom: 0%;
+  right: 18.5%
 }
 
 .top-container {
@@ -181,22 +182,25 @@ hr {
 }
 
 .personalphoto {
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     height: auto;
 }
 
 .bottom-cloud {
-  width: 225px;
+  width: 100%;
+  max-width: 225px;
   position: absolute;
-  top: 385px;
-  left: 465px;
+  top: 40.3%;
+  left: 24.5%;
 }
 
 .top-cloud {
-  width: 225px;
+  width: 100%;
+  max-width: 225px;
   position: absolute;
-  right: 500px;
-  top: 100px;
+  right: 26.5%;
+  top: 11%;
 }
 
 .BUTTON_UOI {
