@@ -134,25 +134,28 @@ p {
 }
 
 .bottom-cloud {
-  width: 225px;
+  width: 100%;
+  max-width: 225px;
   position: absolute;
-  top: 385px;
-  left: 440px;
+  top: 40.3%;
+  left: 24.5%;
 }
 
 .top-cloud {
-  width: 225px;
+  width: 100%;
+  max-width: 225px;
   position: absolute;
-  right: 500px;
-  top: 100px;
+  right: 26.5%;
+  top: 11%;
 }
 
 .skyline {
-  width: 1200px;
+  width: 100%;
   height: auto;
+  max-width: 1200px;
   position: absolute;
-  bottom: 1px;
-  right: 350px;
+  bottom: 0%;
+  right: 18.5%
 }
 
 * {
