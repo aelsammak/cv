@@ -312,3 +312,66 @@ p {
   color: #EAF6F6;
   font-size: 0.85rem;
 }
+
+@media screen and (max-width: 1680px) {
+  .skyline {
+    position: absolute;
+    bottom: 0%;
+    right: 10%;
+  }
+}
+
+@media screen and (max-width: 1536px) {
+  .bottom-cloud {
+    position: absolute;
+    top: 40.3%;
+    left: 18%;
+  }
+  .top-cloud {
+    position: absolute;
+    right: 20%;
+    top: 12%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .skyline {
+    position: absolute;
+    bottom: 0%;
+    right: 7%;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .bottom-cloud {
+    position: absolute;
+    top: 40.3%;
+    left: 18%;
+  }
+  .top-cloud {
+    position: absolute;
+    right: 20%;
+    top: 12%;
+  }
+  .skyline {
+    position: absolute;
+    bottom: 0%;
+    right: 6.5%
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .skyline {
+    position: absolute;
+    bottom: 0%;
+    right: 3%
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .skyline {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+  }
+}
