@@ -203,6 +203,69 @@ hr {
   top: 11%;
 }
 
+@media screen and (max-width: 1680px) {
+  .mountain {
+    position: absolute;
+    bottom: 0%;
+    right: 15%;
+  }
+  .skill-row {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 1536px) {
+  .mountain {
+    position: absolute;
+    bottom: 0%;
+    right: 10%;
+  }
+  .skill-row {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .mountain {
+    position: absolute;
+    bottom: 0%;
+    right: 8%;
+  }
+  .skill-row {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .mountain {
+    position: absolute;
+    bottom: 0%;
+    right: 7%;
+  }
+  .skill-row {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .mountain {
+    position: absolute;
+    bottom: 0%;
+    right: 3%;
+  }
+  .skill-row {
+    width: 69%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .mountain {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+  }
+}
+
 .BUTTON_UOI {
   margin-top: 40px;
   background: #11CDD4;
