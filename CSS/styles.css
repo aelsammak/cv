@@ -216,9 +216,23 @@ hr {
 
 @media screen and (max-width: 1536px) {
   .mountain {
+    max-width: 1000px;
     position: absolute;
     bottom: 0%;
-    right: 10%;
+    right: 14%;
+  }
+  h1 {
+    position: relative;
+    bottom: 60px;
+  }
+  .engineer {
+    position: relative;
+    bottom: 130px;
+  }
+  .bottom-cloud {
+    position: absolute;
+    top: 42%;
+    left: 24.5%;
   }
   .skill-row {
     width: 60%;
@@ -229,7 +243,7 @@ hr {
   .mountain {
     position: absolute;
     bottom: 0%;
-    right: 8%;
+    right: 11%;
   }
   .skill-row {
     width: 65%;
@@ -238,9 +252,18 @@ hr {
 
 @media screen and (max-width: 1366px) {
   .mountain {
+    max-width: 800px;
     position: absolute;
     bottom: 0%;
-    right: 7%;
+    right: 19%;
+  }
+  h1 {
+    position: relative;
+    bottom: 85px;
+  }
+  .engineer {
+    position: relative;
+    bottom: 160px;
   }
   .skill-row {
     width: 65%;
@@ -251,7 +274,7 @@ hr {
   .mountain {
     position: absolute;
     bottom: 0%;
-    right: 3%;
+    right: 20%;
   }
   .skill-row {
     width: 69%;
