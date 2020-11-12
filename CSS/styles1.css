@@ -332,6 +332,17 @@ p {
     right: 20%;
     top: 12%;
   }
+  h1 {
+    position: absolute;
+    top: 150px;
+    left: 350px;
+  }
+  .skyline {
+    max-width: 1000px;
+    position: absolute;
+    bottom: 0%;
+    right: 13%;
+  }
 }
 
 @media screen and (max-width: 1400px) {
@@ -343,20 +354,21 @@ p {
 }
 
 @media screen and (max-width: 1366px) {
+  h1 {
+    position: absolute;
+    top: 145px;
+    left: 350px;
+  }
   .bottom-cloud {
     position: absolute;
-    top: 40.3%;
+    top: 46%;
     left: 18%;
   }
-  .top-cloud {
-    position: absolute;
-    right: 20%;
-    top: 12%;
-  }
   .skyline {
+    max-width: 800px;
     position: absolute;
     bottom: 0%;
-    right: 6.5%
+    right: 18%
   }
 }
 
@@ -364,14 +376,6 @@ p {
   .skyline {
     position: absolute;
     bottom: 0%;
-    right: 3%
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .skyline {
-    position: absolute;
-    bottom: 0%;
-    right: 0%;
+    right: 17%
   }
 }
