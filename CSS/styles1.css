@@ -93,7 +93,7 @@ p {
 /* Float the link section to the right */
 .header-right {
   float: right;
-  margin: 25px 50px auto auto;
+  margin: 25px 38px auto auto;
 }
 
 .about:hover {

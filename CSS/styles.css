@@ -41,6 +41,13 @@ hr {
   width: 4%;
 }
 
+.bird {
+  width: 6%;
+  z-index: 1;
+  position: relative;
+  right: 50%;
+}
+
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
